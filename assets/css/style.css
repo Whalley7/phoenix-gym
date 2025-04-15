@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+body {
+  font-family: roboto;
+  padding: 0;
+  border: 0;
+}
+
+/*----------------Settings for logo */
+.logo {
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+
+/*----------------------Hero Image - Code Institute Love Running-*/
+
+
+
+#hero-outer {
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.header-container {
+  padding: 5px;
+  background: rgb(17, 16, 16);
+  color: #fff;
+  font-size: 30px;
+  height: 60px;
+  margin-top: 100px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+#hero-image {
+  height: 500px;
+  width: 100%;
+  background: url("../images/Gym2PNG.png") no-repeat center center;
+  background-repeat: no-repeat;
+  background-position: center 56px;
+  background-size: cover;
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
+/*----------------Label on animation*/
+
+#label {
+  font-size: 120%;
+  font-family: roboto;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  width: 300px;
+  height: 175px;
+  padding-top: 40px;
+  padding-left: 10px;
+  background-color: rgba(241, 107, 216, 0.7);
+  bottom: 100px;
+  right: 150px;
+  position: absolute;
+}
+
+#label h3 {
+  color: #fff;
+}
+
+/*--------------Setting for the label to disappear on media query*/
+#save {
+  margin-top: 10px;
+  height:20px;
+  width: 100%;
+}
+
+/*---------------------Navbar link settings*/
+.list-inline-item:not(:last-child) {
+  margin: 0;
+}
+
+.nav-link {
+  font-weight: bolder;
+}
+
+a.nav-link.active {
+  background: #9fd1e6;
+
+}
+
+a.nav-link:hover {
+  color: #fff;
+}
+
+a.nav-link:hover:not(.active) {
+  background: #f16bd8;
+}
+
+/*---------------For accessibility*/
+a.nav-link:hover {
+  border-bottom: 1px solid #f16bd8;
+}
+
+
+/*-----------------------Max width for images*/
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+  .margin-top {  
+  margin-top: 20px; 
+}
+
+
+/*--------------------------Landing Page Circle*/
+.card img {
+  width: 100%;
+  text-align: center;
+}
+
+.card-img-top {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  box-shadow: 2px 2px 6px 0px rgba(57, 56, 56, 0.3);
+}
+
+.card-container {
+  font-size: 1em;
+  position: relative;
+ 
+}
+
+.card-container text {
+  padding: 0 10px 10px;
+}
+.circle {
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+/*------------------------Font colour*/
+.top-heading {
+  color: #fff;
+}
+
+/*------------------Gallery Page*/
+
+.message-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#background-form {
+  background: url("../images/drapeballPNG.png") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+
+#mess-text {
+  text-align: center;
+  font-size: 1.5em;
+  color: #111111;
+  margin-bottom: 20px;
+}
+
+
+
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: white;
+   
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+
+#gallery {
+  margin-top: 5px;
+}
+
+h3 {
+  text-align: center;
+}
+
+/*-----------------Information Page Table*/
+
+/*---------------------Address Formatting*/
+.contact {
+  text-align: center;
+}
+
+address {
+  color: #fff;
+  background-color: rgb(17, 16, 16);
+  float: inherit;
+  text-align: center;
+  margin-top: 20px;
+  font-family: Roboto;
+}
+
+
+
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100vh;
+  width:100%;
+  position:absolute;
+}
+
+iframe {
+  text-align: center;
+}
+
+/*----------------Footer Formatting*/
+
+footer {
+  height: 200px;
+  padding-top: 25px;
+  position: absolute;
+  margin-bottom: 0;
+}
+
+/*---------------------Timetable Formatting*/
+
+#timetable {
+  text-align: center;
+  background-color: #343737;
+  color: #fff;
+}
+
+.timetable-times {
+  text-align: center;
+}
+
+.center  {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+}
+
+/*-----------------Table Settings*/
+table {
+  text-align: center;
+}
+
+
+.information-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+footer {
+  height: 150px;
+  margin-bottom: 0;
+}
+
+.general-sub {
+  text-align: center;
+}
+
+
+/*--------------------Social Network Links*/
+.list-inline.social-links {
+  text-align: center;
+  margin-top: 0;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+footer i:hover {
+  color: #14a3e0;
+}
+
+.social-networks li {
+  display: inline;
+}
+
+.social-networks i {
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: #777777;
+}
+/*-----------------------Media Queries*/
+@media screen and (max-width: 943px) {
+
+/*-------------------Formatting Table*/
+ th {
+    display: none;
+  }
+
+  img {
+    column-count: 2;
+  }
+
+  .circle-container {
+    position: relative;
+  }
+
+  /*------------------Label disappears from Landing Page*/
+  #label {
+    display: none;
+  }
+/*---------------------Label colour reappears on the Price page on smaller devices*/
+  #save {
+    background-color:  rgba(241, 107, 216, 0.7);
+  }
+
+  #center {
+    text-align: center;
+  }
+
+
+  @media screen and (max-width: 800px) {
+
+    /*---------Table size reduction*/
+
+  table {
+    font-size: 1em;
+  }
+
+  /*---------------Text becoming smaller*/
+  #save {
+    font-size:0.75em;
+  }
+
+  /*---------------------hero-image responsive*/
+.responsive {
+  width: 100%;
+  height: auto;
+}
+}
+
+@media screen and (max-width: 600px) {
+
+  /*-----------center table on small screen*/
+  .row {
+    text-align: center;
+  }
+  /*-------------ensure map is seen on smaller screens*/
+  .map-responsive {
+    width: 100%;
+    height: 100vh;
+  }
+  img {
+    column-count: 1;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  /*------------------Font becoming smaller*/
+  address {
+    font-size: 1em;
+  }
+
+  table {
+    font-size: 1em;
+  }
+
+  .information-text {
+    text-align: center;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .information-text {
+    font-size: 2em;
+  }
+  #label {
+    display: none;
+  }
+}
+}
+
