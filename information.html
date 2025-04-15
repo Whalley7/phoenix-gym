@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/css/style.css" media="all">
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    type="text/css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous" defer>
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous" defer>
+  </script>
+  <title>Phoenix Gym</title>
+</head>
+<body>
+<header>
+
+   <!--navbar -->
+  <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top home-navbar"
+    aria-label="navbar-toggle">
+    <img src="assets/images/logoPNG.png" height="75" width="50" alt="logo">
+    <a class="navbar-brand" href="#">
+      <h1 class="logo">Phoenix Gym</h1>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span><span class="sr-only">Toggle Dropdown</span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav ml-auto text-uppercase" id="menu-id" aria-hidden="true">
+        <ul class="navbar-nav ml-auto text-uppercase" id="menu-id" aria-hidden="true">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html" aria-label="Link to home page">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html" aria-label="Link to gallery page">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="information.html" aria-label="Link to information page">Information</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="form.html" aria-label="Link to information page">Message Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="location.html" aria-label="Link to location page">Location</a>
+          </li>
+        </ul>
+    </div>
+  </nav>
+</header>
+ <!--price-list -->
+   <section class="header-container">
+    <div class="x-hide-sm x-hide-md">
+  <h2 class="top-heading">Prices</h2>
+</div>
+   </section>  
+<section id="card-info"><p class="center" id="save">Get 20% off the first 3 months with code SAVE20 at the checkout</p>
+  <div class="container">
+    <div class="card-container">
+    <div class="row g-3">
+      <div class="col-12 col-md-4 col-lg-4 mt-3">
+        <div class="card">
+          <img src="assets/images/back-barPNG.png" class="card-img-top" alt="gym image" >
+          <div class="card-body">
+            <h3 class="card-title">Off Peak</h3>
+            <p class="card-text">Our off peak bundle is set at a reasonable price of £15.00 per month for 3 month.  Members can use the facilities durng the standard hours 10.00 am - 4.00 pm and 10.00 pm - 6.00 am.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 col-lg-4 mt-3">
+        <div class="card">
+          <img src="assets/images/push-upsPNG.png" class="card-img-top" alt="photo of man doing pushups">
+          <div class="card-body">
+            <h3 class="card-title">Core</h3>
+            <p class="card-text">Our core our bundle entitles you to visit the gym during the hours of 9.00 am - 6.00 pm and 10.00 am - 9.00 am.  Prced competitively at £21.00 per month.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 col-lg-4 mt-3">
+        <div class="card">
+          <img src="assets/images/three-people2PNG.png" class="card-img-top responsive" alt="photo of people using back weights">
+          <div class="card-body">
+            <h3 class="card-title">Premium</h3>
+            <p class="card-text">Our premium bundle entitles you to visit the gym at any time, morning, noon and night  Priced at £29.99 per month.  Visit the gym at any time of the day and night.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</section>
+
+ <!--timetable -->
+ <section id="timetable">
+   <div class="container">
+    <h4>Timetable</h4>
+   </div>
+   </section>
+   <section class="container">
+    <div class="timetable">
+     <h4 class="center">Gym Classes</h4>
+    </div>
+     <p class="center">The gym is open 24/7. See below for the class timetables.</p>
+     <div role="table" aria-label="s"></div>
+     <table class="center">
+       <thead>
+         <tr>
+           <th>Phoenix Gym</th>
+           <th>Morning</th>
+           <th>Afternoon</th>
+           <th>Evening</th>
+         </tr>
+       </thead>
+       <tbody>
+         <tr>
+           <td>Day</td>
+           <td>10.00-12.00</td>
+           <td>2.00-4.00</td>
+           <td>6.00-8.00</td>
+         </tr>
+         <tr>
+           <td>Sun</td>
+           <td class="pilates">Pilates</td>
+           <td class="circuits">Circuits</td>
+           <td class="kettlebell">Kettlebell</td>
+         </tr>
+         <tr>
+           <td>Mon</td>
+           <td class="spin">Spin</td>
+           <td class="boxercise">Boxercise</td>
+           <td class="cardio">Cardio</td>
+         </tr>
+         <tr>
+           <td>Tue</td>
+          <td class='yoga'>Yoga</td>
+          <td class="cardio">Cardio</td>
+         <td class='spin'>Spin</td>
+         </tr>
+         <tr>
+           <td>Wed</td>
+           <td class="kettlebell">Kettlebell</td>
+          <td class='spin'>Spin</td>
+           <td class="boxercise">Boxercise</td>
+         </tr>
+         <tr>
+           <td>Thur</td>
+           <td class="boxercise">Boxercise</td>
+           <td class='yoga'>Yoga</td>
+          <td class="circuits">Circuits</td>
+         </tr>
+         <tr>
+           <td >Fri</td>
+           <td class="circuits">Circuits</td>
+          <td class='pilates'>Pilates</td>
+          <td class="cardio">Cardio</td>
+         </tr>
+         <tr>
+           <td>Sat</td>
+           <td class="cardio">Cardio</td>
+           <td class="kettlebell">Kettlebell</td>
+           <td class='circuits'>Circuits</td>
+         </tr>
+       </tbody>
+     </table>
+  </section>
+
+ <!--social-networks -->
+  <footer class="container-fluid">
+    <div class="social networks col-sm-12">
+        <h5 class="uppercase general-sub">Social Networks</h5>
+        <ul class="list-inline social-links">
+            <li class="list-inline-item">
+                <a target="_blank" href="https://www.facebook.com/">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <span class="sr-only">Facebook</span>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a target="_blank" href="https://twitter.com/?lang=en">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <span class="sr-only">Twitter</span>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a target="_blank" href="https://www.pinterest.co.uk/">
+                    <i class="fa fa-pinterest" aria-hidden="true"></i>
+                    <span class="sr-only">Pinterest</span>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a target="_blank" href="https://www.instagram.com/">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <span class="sr-only">Instagram</span>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a target="_blank" href="https://www.youtube.com/">
+                    <i class="fa fa-youtube" aria-hidden="true"></i>
+                    <span class="sr-only">YouTube</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+  </footer>
+</body>
+</html>
