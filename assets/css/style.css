@@ -31,9 +31,9 @@ h5 {
   width: 80%;
 }
 
-.modal-body (
-  background-color; pink;
-)
+#customModal {
+  background-color:#45a049;
+}
 
 
 /*----------------------Hero Image - Code Institute Love Running-*/
