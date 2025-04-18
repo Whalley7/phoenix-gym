@@ -11,6 +11,22 @@ body {
   background-position: left;
   background-repeat: no-repeat;
 }
+#modal {
+  font: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+  background-color: rgb(233, 110, 207);
+  margin: 20% auto;
+  padding: 20px;
+  width: 80%;
+}
 
 
 /*----------------------Hero Image - Code Institute Love Running-*/
