@@ -25,15 +25,13 @@ h5 {
 }
 
 .modal-content {
-  
+  color:#3B5998;
   margin: 20% auto;
   padding: 20px;
   width: 80%;
 }
 
-#customModal {
-  background-color:#45a049;
-}
+
 
 
 /*----------------------Hero Image - Code Institute Love Running-*/
