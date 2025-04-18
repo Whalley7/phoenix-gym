@@ -24,16 +24,19 @@ h5 {
   color: black;
 }
 
-.modal-content {
 
+.modal-body {
+  background: url("../images/logoPNG.png") no-repeat center center;
+ 
+}
+
+.modal-content {
   margin: 20% auto;
   padding: 20px;
   width: 80%;
 }
 
-.modal {
-  background-color:#bfcae1;
-}
+
 
 
 /*----------------------Hero Image - Code Institute Love Running-*/
